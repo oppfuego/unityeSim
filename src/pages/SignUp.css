@@ -1,0 +1,37 @@
+.sign-up,
+.sign-up-desktop {
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up-desktop {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 130px 0 129px 1px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-up {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .sign-up-desktop {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-up-desktop {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    box-sizing: border-box;
+  }
+}

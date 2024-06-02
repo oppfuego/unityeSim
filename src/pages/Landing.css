@@ -1,0 +1,64 @@
+.background-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 23px 49.8px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.background,
+.landing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.background {
+  height: 3523px;
+  flex: 1;
+  background-color: #312d2d;
+  flex-direction: column;
+  padding: 0 0 603.6px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.landing {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow-y: auto;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .background,
+  .background-inner {
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+  .background {
+    padding-bottom: 255px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .background {
+    height: auto;
+    padding-bottom: 166px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .background-inner {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .background {
+    padding-bottom: 108px;
+    box-sizing: border-box;
+  }
+}

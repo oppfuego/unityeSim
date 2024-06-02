@@ -1,0 +1,49 @@
+.httpswwwmtxceuenterms-a-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.httpswwwmtxceuenterms-a,
+.terms-and-condition {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.httpswwwmtxceuenterms-a {
+  align-self: stretch;
+  background-color: #fff;
+  overflow-y: auto;
+  align-items: flex-end;
+  padding: 0 0 75.3px;
+  box-sizing: border-box;
+  gap: 62px;
+  max-width: 100%;
+}
+.terms-and-condition {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .httpswwwmtxceuenterms-a {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .httpswwwmtxceuenterms-a {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .httpswwwmtxceuenterms-a {
+    gap: 15px;
+  }
+}

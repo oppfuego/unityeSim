@@ -1,0 +1,627 @@
+.nav-child {
+  align-self: stretch;
+  width: 100px;
+  position: relative;
+  max-height: 100%;
+  min-height: 41px;
+}
+.item-link {
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  color: inherit;
+  display: inline-block;
+  min-width: 87px;
+  white-space: nowrap;
+}
+.item-link1 {
+  font-size: 15.5px;
+  min-width: 51px;
+}
+.item-link1,
+.item-link2,
+.item-link3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  color: inherit;
+  display: inline-block;
+}
+.item-link2 {
+  font-size: 14.4px;
+  min-width: 66px;
+}
+.item-link3 {
+  min-width: 29px;
+}
+.item-link-faq-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8px 0 0;
+  font-size: 14.9px;
+}
+.get-a-sim {
+  text-decoration: none;
+  position: relative;
+  font-size: 16.5px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 77px;
+  white-space: nowrap;
+}
+.button,
+.button-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 3px 8px 4px 11px;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: rgba(230, 230, 230, 0.09);
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.button-wrapper {
+  width: 98.3px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 3.7px;
+  box-sizing: border-box;
+}
+.list,
+.list-wrapper {
+  display: flex;
+  max-width: 100%;
+}
+.list {
+  width: 436px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0.9px 0;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.list-wrapper {
+  width: 481px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item-link4,
+.item-link5,
+.item-link6 {
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.item-link4 {
+  flex: 1;
+  min-width: 128px;
+}
+.item-link5,
+.item-link6 {
+  font-size: 15px;
+  min-width: 80px;
+}
+.item-link6 {
+  flex: 1;
+  font-size: 15.3px;
+  min-width: 119.1px;
+}
+.list-container,
+.list1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.list1 {
+  width: 375.5px;
+  flex-direction: row;
+  padding: 0.9px 0;
+  box-sizing: border-box;
+  gap: 24.3px;
+}
+.list-container {
+  width: 420.5px;
+  flex-direction: column;
+  font-size: 15.5px;
+}
+.link-login {
+  text-decoration: none;
+  position: relative;
+  font-size: 15.1px;
+  line-height: 20.8px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 40.1px;
+}
+.backgroundborder,
+.parent {
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.backgroundborder {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 3px 9px 4px 11px;
+  background-color: #000;
+  flex: 1;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backgroundborder:hover {
+  background-color: #333;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.parent {
+  align-self: stretch;
+  height: 19.2px;
+  font-family: Inter;
+  font-size: 16px;
+  color: #fff;
+}
+.frame-wrapper {
+  width: 33.3px;
+  flex-direction: column;
+  padding: 5.4px 0 0;
+  box-sizing: border-box;
+}
+.backgroundborder-parent,
+.frame-wrapper,
+.nav,
+.nav-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backgroundborder-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 10px;
+}
+.nav,
+.nav-inner {
+  width: 105.2px;
+  flex-direction: column;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 1410px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 9px 0 15px;
+  gap: 20px;
+  max-width: 100%;
+}
+.header,
+.some-regional-or {
+  position: absolute;
+  display: flex;
+}
+
+.some-regional-or {
+  margin: 0;
+  top: 81px;
+  left: 10px;
+  line-height: 17px;
+  align-items: center;
+  width: 816px;
+  height: 17px;
+}
+.background-icon {
+  position: absolute;
+  top: 108.9px;
+  left: 250px;
+  width: 1670px;
+  height: 1090px;
+  overflow: hidden;
+}
+.afghanistan {
+  position: relative;
+  font-size: 12.5px;
+  line-height: 19px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+}
+.algeria {
+  text-decoration: none;
+  font-size: 12.8px;
+  line-height: 18.2px;
+  color: inherit;
+  min-width: 44px;
+}
+.algeria,
+.andorra,
+.argentina,
+.armenia,
+.australia,
+.austria {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.andorra {
+  text-decoration: none;
+  line-height: 18.2px;
+  color: inherit;
+  min-width: 50px;
+}
+.argentina,
+.armenia,
+.australia,
+.austria {
+  line-height: 19px;
+}
+.argentina {
+  text-decoration: none;
+  font-size: 12.6px;
+  color: inherit;
+  min-width: 60px;
+}
+.armenia,
+.australia,
+.austria {
+  font-size: 12.9px;
+  min-width: 53px;
+}
+.australia,
+.austria {
+  text-decoration: none;
+  font-size: 12.8px;
+  color: inherit;
+  min-width: 56px;
+}
+.austria {
+  font-size: 12.6px;
+  min-width: 45px;
+}
+.azerbaijan {
+  font-size: 12.5px;
+  display: inline-block;
+  min-width: 65px;
+}
+.azerbaijan,
+.bahamas-the,
+.bahrain {
+  position: relative;
+  line-height: 19px;
+  font-weight: 600;
+}
+.bahamas-the {
+  display: inline-block;
+  min-width: 90px;
+}
+.bahrain {
+  font-size: 13.2px;
+  min-width: 49px;
+}
+.bahrain,
+.belarus,
+.belgium {
+  display: inline-block;
+}
+.belarus {
+  text-decoration: none;
+  position: relative;
+  font-size: 13.3px;
+  line-height: 19px;
+  font-weight: 600;
+  color: inherit;
+  min-width: 49px;
+}
+.belgium {
+  font-size: 13.2px;
+  line-height: 18.2px;
+  min-width: 52px;
+}
+.belgium,
+.benin,
+.bosnia-and-herzegovina {
+  position: relative;
+  font-weight: 600;
+}
+.benin {
+  font-size: 13.1px;
+  line-height: 18.2px;
+  display: inline-block;
+  min-width: 36px;
+}
+.bosnia-and-herzegovina {
+  line-height: 19px;
+  color: inherit;
+  text-decoration: none;
+}
+.brunei-darussalam {
+  position: relative;
+  font-size: 13.2px;
+  line-height: 18.2px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 120.4px;
+}
+.bulgaria,
+.burkina-faso {
+  line-height: 19px;
+  display: inline-block;
+}
+.bulgaria {
+  position: relative;
+  font-size: 13.3px;
+  font-weight: 600;
+  min-width: 53px;
+}
+.burkina-faso {
+  font-size: 13.1px;
+  min-width: 82px;
+}
+.burkina-faso,
+.cabo-verde,
+.cambodia {
+  position: relative;
+  font-weight: 600;
+}
+.cabo-verde {
+  font-size: 12.3px;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 70px;
+}
+.cambodia {
+  font-size: 12.6px;
+  line-height: 18.2px;
+  min-width: 62.1px;
+}
+.cambodia,
+.cameroon,
+.canada {
+  display: inline-block;
+}
+.cameroon {
+  position: relative;
+  line-height: 18.2px;
+  font-weight: 600;
+  min-width: 64px;
+}
+.canada {
+  font-size: 12.6px;
+  line-height: 19px;
+  min-width: 47px;
+}
+.canada,
+.chile,
+.china {
+  position: relative;
+  font-weight: 600;
+}
+.chile {
+  line-height: 19px;
+  display: inline-block;
+  min-width: 32px;
+}
+.china {
+  min-width: 36px;
+}
+.china,
+.costa-rica,
+.croatia {
+  line-height: 19px;
+  display: inline-block;
+}
+.costa-rica {
+  position: relative;
+  font-weight: 600;
+  min-width: 66px;
+}
+.croatia {
+  font-size: 12.6px;
+  min-width: 45px;
+}
+.croatia,
+.curaao,
+.cyprus {
+  position: relative;
+  font-weight: 600;
+}
+.curaao {
+  font-size: 12.6px;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 52px;
+}
+.cyprus {
+  font-size: 12.3px;
+  min-width: 44px;
+}
+.cyprus,
+.czechia,
+.denmark {
+  line-height: 19px;
+  display: inline-block;
+}
+.czechia {
+  position: relative;
+  font-size: 12.4px;
+  font-weight: 600;
+  min-width: 49px;
+}
+.denmark {
+  font-size: 13.1px;
+  min-width: 58px;
+}
+.denmark,
+.dominican-republic-the,
+.egypt {
+  position: relative;
+  font-weight: 600;
+}
+.dominican-republic-the {
+  font-size: 12.6px;
+  line-height: 18.2px;
+  color: inherit;
+  text-decoration: none;
+}
+.egypt {
+  font-size: 12.1px;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 35px;
+}
+.estonia {
+  line-height: 19px;
+  min-width: 46px;
+}
+.estonia,
+.faroe-islands-the,
+.finland,
+.france,
+.french-guiana {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.faroe-islands-the {
+  font-size: 12.6px;
+  line-height: 19px;
+  color: inherit;
+  text-decoration: none;
+  min-width: 115px;
+}
+.finland,
+.france,
+.french-guiana {
+  font-size: 13px;
+  line-height: 18.2px;
+  min-width: 46.3px;
+}
+.france,
+.french-guiana {
+  font-size: 12.8px;
+  line-height: 19px;
+  min-width: 43px;
+}
+.french-guiana {
+  min-width: 90px;
+}
+.gambia-the {
+  font-size: 12.4px;
+  min-width: 79px;
+}
+.gambia-the,
+.georgia,
+.germany {
+  position: relative;
+  line-height: 19px;
+  font-weight: 600;
+  display: inline-block;
+}
+.georgia {
+  font-size: 12.5px;
+  min-width: 48px;
+}
+.germany {
+  min-width: 56px;
+}
+.frame-container,
+.list2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list2 {
+  height: 1090px;
+  width: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 9.9px 10px 18.2px;
+  box-sizing: border-box;
+  gap: 9.4px;
+  min-width: 250px;
+}
+.frame-container {
+  justify-content: flex-end;
+  padding: 0 0 9.8px;
+}
+.list-parent {
+  position: absolute;
+  top: 108.9px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 12.7px;
+  color: #000;
+}
+.coverage {
+  width: 100%;
+  height: 1208px;
+  position: relative;
+  background-color: #fff;
+  overflow-y: auto;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 12px;
+  color: #39f;
+  font-family: Inter;
+
+}
+
+@media screen and (max-width: 1100px) {
+  .list {
+    display: none;
+  }
+  .list-wrapper {
+    width: 45px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .list1 {
+    display: none;
+  }
+  .list-container {
+    width: 45px;
+  }
+  .list2 {
+    flex: 1;
+  }
+  .list-parent {
+    flex-wrap: wrap;
+  }
+  .coverage {
+    height: auto;
+    min-height: 1208px;
+  }
+}
